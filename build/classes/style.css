@@ -1,0 +1,139 @@
+VBox {
+    -fx-background-color: linear-gradient(to bottom, #f6c00044, #f8cc4144, #fad76544, #fce28544, #ffeca544);
+}
+
+HBox {
+    -fx-background-color: transparent;
+}
+
+.tab:selected {
+    -fx-background-color: linear-gradient(to left top, #f6c000, #f8cc41, #fad765, #fce285, #ffeca5);
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: #f6c000;
+    -fx-border-width: 0 0 1px 0;
+    -fx-border-color: black;
+}
+
+.tab-pane {
+    -fx-tab-min-width: 90px;
+    -fx-tab-min-height: 25px;
+}
+
+.tab-label {
+    -fx-font-family: 'Verdana', sans-serif;
+}
+
+.table-view {
+    -fx-background-color: transparent;
+}
+
+.table-view .filler {
+    -fx-background-color: transparent;
+}
+
+.table-view .corner {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(to bottom, #f6c000, #f8cc41, #fad765, #fce285, #ffeca5);
+    -fx-background-radius: 7px 7px 0px 0px;
+    -fx-background-insets: 0 0 0 0;
+    -fx-padding: 0 0 5px 0;
+    -fx-border-width: 1px 0 1px 0;
+    -fx-border-color: black;
+}
+
+.table-view .column-header-background .label {
+    -fx-font-family: 'Arial Narrow', sans-serif;
+    -fx-font-size: 13px;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell{
+    -fx-border-color: transparent;
+    -fx-padding: 2 0 2 10px;
+    -fx-alignment: CENTER;
+    -fx-font-family: 'Arial', sans-serif;
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #93f9b911;
+    -fx-text-background-color: red;
+}
+.table-row-cell:odd{
+    -fx-background-color: #f8cc4121;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+.table-row-cell:even{
+    -fx-background-color: #fad76511;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.table-row-cell:selected{
+    -fx-text-background-color: red;
+}
+
+.table-view .virtual-flow .scroll-bar:vertical,
+.table-view .virtual-flow .scroll-bar:vertical .track,
+.table-view .virtual-flow .scroll-bar:vertical .track-background,
+.table-view .virtual-flow .scroll-bar:horizontal,
+.table-view .virtual-flow .scroll-bar:horizontal .track,
+.table-view .virtual-flow .scroll-bar:horizontal .track-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .virtual-flow .scroll-bar .increment-button,
+.table-view .virtual-flow .scroll-bar .decrement-button {
+    -fx-opacity: 0;
+    -fx-padding: 2;
+}
+
+.table-view .virtual-flow .scroll-bar:vertical .thumb{
+    -fx-background-color:  linear-gradient(to bottom, #1dbbdd44, #93f9b944);
+}
+.table-view .virtual-flow .scroll-bar:horizontal .thumb {
+    -fx-background-color:  linear-gradient(to right, #1dbbdd44, #93f9b944);
+}
+
+.button_dodaj {
+    -fx-background-color: linear-gradient(to left top, #f6c000, #f8cc41, #fad765, #fce285, #ffeca5);
+    -fx-border-color: black;
+    -fx-border-radius: 5px;
+    -fx-font-family: 'Verdana', sans-serif;
+}
+
+
+.button_dodaj:hover {
+    -fx-cursor: pointer;
+}
+
+.btn_remove, .btn_edit {
+    -fx-background-color: transparent;
+    -fx-font-family: 'Verdana', sans-serif;
+}
+
+.vbox_formularz {
+    -fx-background-color: linear-gradient(to bottom, #f6c00011, #f8cc4111, #fad76511, #fce28521, #ffeca5);
+    -fx-font-family: 'Verdana', sans-serif;
+
+}
+
+.vbox_formularz Button {
+    -fx-background-color: linear-gradient(to left top, #f6c000, #f8cc41, #fad765, #fce285, #ffeca5);
+    -fx-border-color: black;
+    -fx-border-radius: 5px;
+    -fx-font-family: 'Verdana', sans-serif;
+}
+
+.vbox_formularz ComboBox {
+    -fx-background-color: linear-gradient(to left top, #f6c000, #f8cc41, #fad765, #fce285, #ffeca5);
+    -fx-font-family: 'Verdana', sans-serif;
+}
